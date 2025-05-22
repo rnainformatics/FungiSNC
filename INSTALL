@@ -1,0 +1,107 @@
+INSTALL:
+========
+
+
+Table of contents:
+==================
+
+    * Minimum Requirements
+  
+    * Installation
+
+    * Run Test
+
+Minimum Requirements
+====================
+
+ *Required Software Packages:
+
+	* Perl 5.16 or above, installed with multithread support, and following Perl (CPAN) modules:
+		Scalar::Util
+                Data::Dumper
+                Parallel::ForkManager
+                Getopt::Long
+                experimental
+                SVG
+                File::Spec
+                List::Util
+                Math::CDF
+                Try::Tiny
+                JSON
+
+	* Python3	
+	
+	* Bowtie:An ultra-fast short read aligner, both version1.0 and version 2.0.
+        
+	* Samtools:provide various utilities for manipulating alignments in the SAM
+          format, including sorting, merging, indexing and generating alignments in
+          a per-position format(V1.9).
+        
+	* Tapir:Designed for the prediction of plant microRNA targets
+        
+	* Bedtools:A flexible suite of utilities for comparing genomic features
+          Biochemistry of multidrug resistance mediated by the multidrug transporter.
+        
+	* ViennaRNA:For RNA Comparison and Secondary Structure Prediction (>=V2)
+        
+	* R and R Packages:
+                seqinr
+                XML
+                RCurl
+                data.table
+                ggpubr
+                jsonlite
+                GOstats
+                GenomicAlignments
+                GenomicFeatures
+
+ *Other program included in the distribution:
+
+	* sRNAtools/program/external/megablast
+	
+	* sRNAtools/program/external/ShortStack
+	
+	* sRNAtools/program/mireap
+	
+	* sRNAtools/program/mirtrace
+
+	* sRNAtools/program/phasiRNAClassifier
+
+	* sRNAtools/program/PHASIS
+
+	* sRNAtools/program/TargetFinder_1.6
+	
+Installation Packages
+=====================
+	* Perl (http://www.perl.org/)
+
+	* Python3 (https://www.python.org/)
+
+	* Bowtie (https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.4.3/bowtie2-2.3.4.3-linux-x86_64.zip)
+		 (https://sourceforge.net/projects/bowtie-bio/files/bowtie/1.2.2/bowtie-1.2.2-linux-x86_64.zip)
+    
+	* Samtools (https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2)
+        
+        * Tapir (http://bioinformatics.psb.ugent.be/webtools/tapir/tapir-1.2.tar.gz)
+        
+        * Bedtools (https://github.com/arq5x/bedtools2/releases/download/v2.25.0/bedtools-2.25.0.tar.gz)
+        
+        * ViennaRNA (https://www.tbi.univie.ac.at/RNA/download/sourcecode/2_4_x/ViennaRNA-2.4.10.tar.gz)
+        
+        * R (https://www.r-project.org/)
+
+	Note:Different computers may exist some differences, to access the official documentation.
+
+Run Test
+============
+	Start an analysis test by the following command:
+	
+	perl run_fungi.pl -infile test_data/SRR1583952.fa -jobid SRR1583952
+
+	
+
+
+
+
+
+

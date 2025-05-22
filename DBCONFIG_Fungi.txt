@@ -1,0 +1,13 @@
+sepath=/home/FungiSNC/db
+genomepath=/home/FungiSNC/db/genome
+mirbasepath=/home/FungiSNC/db/mirbase
+rfampath=/home/FungiSNC/db/rfam
+mrnapath=/home/FungiSNC/db/mRNA
+lncRNApath=/home/FungiSNC/db/lncRNA
+circRNApath=/home/FungiSNC/db/circRNA
+tRNApath=/home/FungiSNC/db/tRNA
+24ntpath=/home/FungiSNC/db/24nt
+repbasepath=/home/FungiSNC/db/repeat
+natrnapath=/home/FungiSNC/db/nat
+pirnapath=/home/FungiSNC/db/pirna
+
