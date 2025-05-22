@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 #----------------------------------------------------------------------+
 #                                                                      |
-# sRNAtools -  small non-coding RNA calling and expression             |
+# FungiSNC -  small non-coding RNA calling and expression             |
 #           analysis based on Small RNAs sequencing data               |
 #                                                                      |
 #----------------------------------------------------------------------+
@@ -23,7 +23,7 @@ use Getopt::Long;
 use FindBin '$Bin';
 
 my $usage = <<USAGE;
- perl run.pl <parameters>
+ perl run_fungi.pl <parameters>
   -mismatch	<num>	The mismatch allowed in the tags mapping [1]
   -infile	<str>	The path of input file (fasta) [required *]
   -species	<str>	The reference species [ath]
