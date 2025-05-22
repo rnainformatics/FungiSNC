@@ -3,7 +3,7 @@
 ## Introduction to FungiSNC
 
 FungiSNC is presented to discovery, profile and functional annotate diverse kind of sncRNAs (including miRNA, piRNA, tRFs, siRNA, snRNA, snoRNA, rRNA, phasiRNA and natsiRNA) which can not only be used in sRNA-Seq, but it is can also be used in single cell sRNA-seq.
-		FungiSNC have these main features:
+FungiSNC have these main features:
 		• sRNA can be detected and profiled for as many as 29 species.
 		• Unbiased classify the sncRNA into different categories.
 		• Differential expression analysis of sncRNA with paired cases small RNAs transcriptome.
@@ -16,7 +16,7 @@ The webserver can be accessed: https://bioinformatics.sc.cn/FungiSNC/.
 ## Installation
 **If you want to use this tool on a Linux system, you can install the required libraries and dependencies using the links below.**
 ```
-git clone https://github.com/rnainformatics/RiboMicrobe.git
+git clone https://github.com/rnainformatics/FungiSNC.git
 ```
 
 ### Required Languages
@@ -114,12 +114,14 @@ All are available under `sRNAtools/program/` and don't require separate installa
   -ncpu <num>   Number of threads used in the analysis [1]
   -outdir       <str>   The output directory of results [tRFtools_time]
 ```
+Authors:
 
- Authors:
- 	Qi Liu
-	Xiaoqiang Lang
-	Guoxian	Liu
+Qi Liu,Xiaoqiang Lang,Guoxian	Liu
 	
  Email:
-	qi.liu2@childrens.harvard.edu
-	langxiaoqiang@wchscu.cn
+ 
+  rnainfor@gmail.com
+  
+  langxiaoqiang@foxmail.com
+  
+  guoxianliu0205@163.com
