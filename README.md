@@ -1,15 +1,22 @@
 # FungiSNC
 
 ## Introduction
-FungiSNC is presented to discovery, profile and functional annotate diverse kind of sncRNAs (including miRNA, piRNA, tRFs, siRNA, snRNA, snoRNA, rRNA, phasiRNA and natsiRNA) which can not only be used in sRNA-Seq, but it is can also be used in single cell sRNA-seq.
+FungiSNC is presented to discovery, profile and functional annotate diverse kind of sncRNAs, including miRNA, piRNA, tRFs, siRNA, snRNA, snoRNA, rRNA, phasiRNA and natsiRNA.
 FungiSNC have these main features:
-		• sRNA can be detected and profiled for as many as 29 species.
-		• Unbiased classify the sncRNA into different categories.
-		• Differential expression analysis of sncRNA with paired cases small RNAs transcriptome.
-		• Differential expression analysis with group case small RNAs transcriptome.
-		• Gene targets and function prediction for sncRNA.
-		• sncRNA modification calling using cleavage-based method
-		• Very user-friendly web interfaces and convenient data analysis queue system.
+
+• sRNA can be detected and profiled for as many as 29 species.
+
+• Unbiased classify the sncRNA into different categories.
+
+• Differential expression analysis of sncRNA with paired cases small RNAs transcriptome.
+
+• Differential expression analysis with group case small RNAs transcriptome.
+
+• Gene targets and function prediction for sncRNA.
+
+• sncRNA modification calling using cleavage-based method
+
+• Very user-friendly web interfaces and convenient data analysis queue system.
 
 The webserver can be accessed: https://bioinformatics.sc.cn/FungiSNC/.
 ## Installation
